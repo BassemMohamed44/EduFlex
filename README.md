@@ -46,7 +46,7 @@
 
 ## 🚧 Project Status
 
-**Current Status:** 🟡 In Development
+**Current Status:** ✅ In Development
 
 | Phase | Description | Status |
 |:---:|---|:---:|
@@ -62,7 +62,7 @@
 | 10 | Backup / Restore | ✅ |
 | 11 | Testing | ✅ |
 | 12 | Security Review + Bug Fixing | ✅ |
-| 13 | Packaging with PyInstaller | 🟡 |
+| 13 | Packaging with PyInstaller | ✅ |
 
 ##  Running the Project — Development Environment
 
