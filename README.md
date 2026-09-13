@@ -176,23 +176,22 @@ The following security checks and fixes were completed during **Phase 12**:
 Eduflex/
 ├── app/
 │   ├── main.py
-│   ├── config/        # Data paths and application settings
-│   ├── database/      # SQLAlchemy connection and migrations
-│   ├── models/        # Database tables (ORM models)
-│   ├── repositories/  # Data access layer
-│   ├── services/      # Business logic
-│   ├── security/      # Password hashing and security
-│   ├── qr/            # QR code generation and scanning
-│   ├── reports/       # PDF/Excel report generation
-│   ├── ui/            # PySide6 user interfaces
-│   └── utils/         # Utilities (logging, exceptions)
-├── tests/             # Automated tests
-├── assets/            # Application assets
-├── requirements.txt   # Python dependencies
-└── pyproject.toml     # Project configuration
+│   ├── config/
+│   ├── database/
+│   ├── models/
+│   ├── repositories/
+│   ├── services/
+│   ├── security/
+│   ├── qr/
+│   ├── reports/
+│   ├── ui/
+│   └── utils/
+│
+├── tests/
+├── assets/
+├── requirements.txt
+└── pyproject.toml
 ```
-
-
 ## Security Notes
 
 * **Passwords** are stored exclusively as **Argon2id hashes** and are never stored in plain text.
